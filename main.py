@@ -17,14 +17,14 @@ from datetime import datetime, timezone # For timestamping user registration and
 
 # --- Bot Configuration ---
 # BOT_TOKEN = "YOUR_BOT_TOKEN" # Replace with your bot token
-BOT_TOKEN = "7870704761:AAH-RMKO7chV0nu6-o5wUYFiat7XwBW6OCk" # Replace with your bot token
+BOT_TOKEN = "8127800981:AAGq4GhNNEgjFujcb4AadqRuF34Fh9LUzw4" # Replace with your bot token
 if BOT_TOKEN == "YOUR_BOT_TOKEN" or not BOT_TOKEN:
     print("ERROR: Please replace 'YOUR_BOT_TOKEN' with your actual bot token.")
     exit()
 
 # --- MongoDB Configuration ---
 # MONGO_URI = "YOUR_MONGODB_URI" # Replace with your MongoDB URI
-MONGO_URI = "mongodb+srv://yesvashisht:yash2005@clusterdf.yagj9ok.mongodb.net/?retryWrites=true&w=majority&appName=Clusterdf" # Replace with your MongoDB URI
+MONGO_URI = "mongodb+srv://2005yes2005_db_user:JQgmccBhXMgcl12l@cluster0.qhcaciu.mongodb.net/?appName=Cluster0" # Replace with your MongoDB URI
 MONGO_DB_NAME = "tct_cricket_bot_db"
 if MONGO_URI == "YOUR_MONGODB_URI" or not MONGO_URI:
      print("ERROR: Please configure MONGO_URI.")
